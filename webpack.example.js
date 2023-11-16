@@ -5,8 +5,7 @@ module.exports = {
     mode: 'development',
     output: {
         filename: 'build.js',
-        path: path.resolve('./example/js'),
-        libraryTarget: 'var'
+        path: path.resolve('./example/js')
     },
     
     module: {
